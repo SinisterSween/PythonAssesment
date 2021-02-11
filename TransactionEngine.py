@@ -249,6 +249,8 @@ class App:
 
 
 def main():
+    writer(header1, data1, client_list)
+    writer(header2, data2, transaction_list)
     Test().run()
     sys.exit(0)
 
